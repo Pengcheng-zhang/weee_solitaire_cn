@@ -149,7 +149,7 @@ class Event_model extends CI_Model {
 	}
 	public function update_event($id, $data) {
 		$result = $this->db->where ( 'id', $id )->update ( 'event', $data );
-		if ($this->db->_error_number ())
+		if ($this->db->error () ['code'] != 0)
 			log_message ( 'error', 'Event_model.update_event: ' . print_r ( $this->db->error (), true ) );
 		return $result;
 	}
