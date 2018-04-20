@@ -83,3 +83,19 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+define ( 'META_CODE_EVENT_CATEGORY_GROUPBUY', 'groupbuy' );
+define ( 'META_CODE_EVENT_CATEGORY_LECTURE', 'lecture' );
+define ( 'META_CODE_EVENT_CATEGORY_CHILD', 'child' );
+define ( 'META_CODE_EVENT_CATEGORY_OTHER', 'other' );
+define ( 'META_CODE_EVENT_CATEGORY_SOLITAIRE', 'solitaire' );
+
+define ( 'META_CODE_DEAL_PAYMENT_FULL', 'F' );
+define ( 'META_CODE_DEAL_PAYMENT_DEPOSITE', 'D' );
+define ( 'META_CODE_DEAL_PAYMENT_NONE', 'N' );
+define ( 'META_CODE_DEAL_PAYMENT_POINTS', 'P' );
+
+define ( 'META_CODE_DEAL_ORDER_STATUS_CREATED', 'C' );
+define ( 'META_CODE_DEAL_ORDER_STATUS_CONFIRMED', 'P' );
+define ( 'META_CODE_DEAL_ORDER_STATUS_FINISHED', 'F' );
+define ( 'META_CODE_DEAL_ORDER_STATUS_CANCELLED', 'X' );
